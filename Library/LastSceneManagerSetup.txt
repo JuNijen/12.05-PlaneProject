@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/PlaneProjectRes/SceneFiles/FirstScene.unity
+  isLoaded: 1
+  isActive: 1
