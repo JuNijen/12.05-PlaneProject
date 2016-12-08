@@ -7,6 +7,7 @@ using System.Collections;
 public class PlaneScript : MonoBehaviour
 {
     public float speed = 3;
+    public float screenSize = 8;
 	
 	void Update ()
     {
@@ -37,7 +38,19 @@ public class PlaneScript : MonoBehaviour
             dir += Vector3.right;
 
         dir.Normalize();
-        transform.localPosition += dir * speed * Time.deltaTime;
+        //ImsiFunc();
+
+        transform.localPosition += dir * speed * Time.deltaTime;        
+    }
+    private void ImsiFunc()
+    {
+        float x = transform.localPosition.x;
+        float y = transform.localPosition.y;
+
+        x = Mathf.Clamp(x, -screenSize, +screenSize);
+        y = Mathf.Clamp(x, -screenSize, +screenSize);
+
+        transform.localPosition = new Vector3(x, y);
     }
 
 }

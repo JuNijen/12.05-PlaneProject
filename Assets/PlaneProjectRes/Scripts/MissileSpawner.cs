@@ -4,7 +4,9 @@ using System.Collections;
 public class MissileSpawner : MonoBehaviour
 {
     public GameObject prefab;
-    float interval = 3;
+    public float interval = 3.0f;
+
+    float destroyTime = 7.0f;
 
     void Update()
     {
@@ -13,6 +15,7 @@ public class MissileSpawner : MonoBehaviour
             interval = 3;
             GameObject created = GameObject.Instantiate(prefab);
             created.transform.position = transform.position;
+            GameObject.Destroy(created, destroyTime);
         }
         else
         {

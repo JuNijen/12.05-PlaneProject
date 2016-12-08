@@ -20,7 +20,9 @@ public class MissileCollisionChecker : MonoBehaviour
         }
         if ((plane.position - transform.position).magnitude < 0.5f)
         {
-            Debug.Log("Collide!");
+            Debug.Log("It is crashed");
+            Time.timeScale = 0.0f;
+            Destroy(plane.gameObject);
         }
     }
 

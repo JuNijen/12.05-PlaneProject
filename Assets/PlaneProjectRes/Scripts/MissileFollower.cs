@@ -5,6 +5,7 @@ public class MissileFollower : MonoBehaviour
 {
     public Transform plane;
     private Vector3 dir;
+    public float speed = 3;
     
     private void Start()
     {
@@ -17,7 +18,7 @@ public class MissileFollower : MonoBehaviour
 
     private void Update()
     {
-        transform.position += dir * Time.deltaTime;
+        transform.position += dir * Time.deltaTime * speed;
     }
 }
 
