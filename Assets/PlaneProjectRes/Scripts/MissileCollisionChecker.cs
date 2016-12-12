@@ -21,10 +21,15 @@ public class MissileCollisionChecker : MonoBehaviour
         if ((plane.position - transform.position).magnitude < 0.5f)
         {
             Debug.Log("It is crashed");
+            GetComponent<AudioSource>().Play();
             Time.timeScale = 0.0f;
             Destroy(plane.gameObject);
         }
     }
+
+
+
+
 
     private void JustForBackUps()
     {
