@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/PlaneProjectRes/SceneFiles/FirstScene.unity
+- path: Assets/PlaneProjectRes/SceneFiles/PocketBallScene.unity
   isLoaded: 1
   isActive: 1

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.05-PlaneProject.CSharp", "12.05-PlaneProject.CSharp.csproj", "{DFA5B86C-71BC-10B1-906E-23FFA17EE56D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.05-PlaneProject", "12.05-PlaneProject.csproj", "{AB1C7232-B114-5604-4A38-68D5C334FB75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DFA5B86C-71BC-10B1-906E-23FFA17EE56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFA5B86C-71BC-10B1-906E-23FFA17EE56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFA5B86C-71BC-10B1-906E-23FFA17EE56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFA5B86C-71BC-10B1-906E-23FFA17EE56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1C7232-B114-5604-4A38-68D5C334FB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1C7232-B114-5604-4A38-68D5C334FB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1C7232-B114-5604-4A38-68D5C334FB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1C7232-B114-5604-4A38-68D5C334FB75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
